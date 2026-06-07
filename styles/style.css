@@ -314,3 +314,29 @@ ol {
   outline: 1px solid #fff;
   outline-offset: 2px;
 }
+
+.content__list {
+  max-block-size: 298px;
+}
+
+.result__video-container .preloader,
+.content__list-container .preloader {
+  position: absolute;
+  inset: 0;
+}
+
+.result__video-container,
+.content__list-container {
+  position: relative;
+}
+
+.error {
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
