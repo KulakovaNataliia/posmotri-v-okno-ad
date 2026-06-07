@@ -330,13 +330,5 @@ ol {
   position: relative;
 }
 
-.error {
-  inline-size: 100%;
-  block-size: 100%;
-}
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+
